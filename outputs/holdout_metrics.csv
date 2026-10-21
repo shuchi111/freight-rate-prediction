@@ -1,0 +1,9 @@
+model,rows,MAE,RMSE,MAPE_%,R2
+Baseline: lane average,clean labels,82.156,120.104,3.453,0.992
+Baseline: lane average,all labels,137.773,640.326,5.959,0.824
+Ridge regression,clean labels,62.672,87.913,2.682,0.996
+Ridge regression,all labels,118.434,636.694,5.148,0.826
+LightGBM + linear trend,clean labels,47.795,73.115,1.985,0.997
+LightGBM + linear trend,all labels,103.721,633.165,4.481,0.828
+Blend: LightGBM + Ridge,clean labels,54.18,79.109,2.282,0.997
+Blend: LightGBM + Ridge,all labels,110.04,634.717,4.764,0.827
