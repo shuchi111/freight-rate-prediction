@@ -1,0 +1,10 @@
+,rows,MAE,MAPE_pct
+equipment: Dry Van,5275,37.82,1.67
+equipment: Flatbed,1746,69.25,2.78
+equipment: Reefer,2358,54.21,2.1
+distance band: <300 mi,770,11.63,2.07
+distance band: 300-800 mi,3075,24.96,1.94
+distance band: 800-1500 mi,2872,47.01,2.0
+distance band: >1500 mi,2662,85.49,1.99
+lane seen in training: seen,9358,47.79,1.98
+lane seen in training: unseen,21,48.17,2.0
