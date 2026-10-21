@@ -1,0 +1,29 @@
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.cursor/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local notes and documents
+*.pdf
+*.docx
+!report/*.pdf
+!report/*.docx
