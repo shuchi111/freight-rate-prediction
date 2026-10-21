@@ -1,0 +1,9 @@
+model,rows,MAE,RMSE,MAPE_%,R2
+Baseline: lane average,loads touching a new city,86.922,118.33,3.791,0.993
+Baseline: lane average,loads between known cities,82.229,121.015,3.477,0.992
+Ridge regression,loads touching a new city,69.28,100.238,2.815,0.995
+Ridge regression,loads between known cities,61.788,86.508,2.684,0.996
+LightGBM + linear trend,loads touching a new city,56.898,87.015,2.223,0.996
+LightGBM + linear trend,loads between known cities,47.696,72.67,2.013,0.997
+Blend: LightGBM + Ridge,loads touching a new city,61.899,92.134,2.463,0.996
+Blend: LightGBM + Ridge,loads between known cities,53.664,78.087,2.296,0.997
