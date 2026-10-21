@@ -1,0 +1,5 @@
+model,MAE,RMSE,MAPE_%,R2
+Baseline: lane average,99.224,141.072,4.111,0.989
+Blend: LightGBM + Ridge,54.903,77.897,2.309,0.996
+LightGBM + linear trend,51.672,74.486,2.17,0.997
+Ridge regression,61.588,86.109,2.604,0.995
