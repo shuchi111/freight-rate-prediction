@@ -1,0 +1,10 @@
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+lightgbm>=4.0,<5
+
+# Only needed to run or re-execute the notebook
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.0
