@@ -1,0 +1,43 @@
+{
+  "data_quality": {
+    "train_rows": 48000,
+    "validation_rows": 12000,
+    "missing_weight_train": 300,
+    "negative_weight_train": 292,
+    "missing_market_index_train": 374,
+    "missing_weight_validation": 165,
+    "negative_weight_validation": 145,
+    "missing_market_index_validation": 249,
+    "label_outliers_removed": 677,
+    "cities_only_in_validation": [
+      "Allentown",
+      "Charlotte",
+      "Chicago",
+      "Jackson",
+      "Knoxville",
+      "Laredo",
+      "Norfolk",
+      "San Diego"
+    ],
+    "validation_loads_touching_new_city": 1447,
+    "prediction_period_quote_regimes": [
+      "noise"
+    ]
+  },
+  "final_model": "LightGBM + linear trend",
+  "trend_per_month_pct": 0.634,
+  "validation_prediction_stats": {
+    "count": 12000.0,
+    "mean": 2387.23,
+    "std": 1372.13,
+    "min": 196.06,
+    "25%": 1290.92,
+    "50%": 2064.56,
+    "75%": 3394.67,
+    "max": 6945.57
+  },
+  "december_prediction_range": [
+    838.34,
+    862.68
+  ]
+}
